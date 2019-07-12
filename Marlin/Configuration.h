@@ -978,7 +978,7 @@
 // @section machine
 
 // The size of the print bed
-#define X_BED_SIZE 180
+#define X_BED_SIZE 140
 #define Y_BED_SIZE 180
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
@@ -1381,14 +1381,24 @@
 #define PREHEAT_1_FAN_SPEED     0 // Value from 0 to 255
 
 #define PREHEAT_2_LABEL       "ABS"
-#define PREHEAT_2_TEMP_HOTEND 225
-#define PREHEAT_2_TEMP_BED    110
+#define PREHEAT_2_TEMP_HOTEND 228
+#define PREHEAT_2_TEMP_BED    105
 #define PREHEAT_2_FAN_SPEED     0 // Value from 0 to 255
 
 #define PREHEAT_3_LABEL       "FLEX"
 #define PREHEAT_3_TEMP_HOTEND 218
 #define PREHEAT_3_TEMP_BED     60
 #define PREHEAT_3_FAN_SPEED     0 // Value from 0 to 255
+
+#define PREHEAT_4_LABEL       "PET"
+#define PREHEAT_4_TEMP_HOTEND 240  //PET
+#define PREHEAT_4_TEMP_BED 100
+#define PREHEAT_4_FAN_SPEED 0      // Value from 0 to 255
+
+#define PREHEAT_5_LABEL       "NYLON"
+#define PREHEAT_5_TEMP_HOTEND 230  //NYLON
+#define PREHEAT_5_TEMP_BED 100
+#define PREHEAT_5_FAN_SPEED 0      // Value from 0 to 255
 
 /**
  * Nozzle Park
